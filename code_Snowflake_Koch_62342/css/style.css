@@ -1,0 +1,49 @@
+body{
+  background-color: #fff;
+  width: 70%;
+  margin: 15% auto;
+  font-family: 'Abhaya Libre', serif;
+}
+
+h1 {
+  font-family: 'Amita', cursive;
+  text-align: left;
+  font-size:48px;
+  color: #606D72;
+}
+
+h2 {
+  font-family: 'Amita', cursive;
+  color: #606D72
+}
+
+button {
+  font-size: 20px;
+}
+
+#main {
+  position:relative;
+}
+
+#sidepanel {
+  position:absolute;
+  right:0;
+  top:50;
+  padding-bottom:10%;
+}
+
+#container {
+  width:60%;
+  position:relative;
+  left:0;
+  top:0;
+}
+#imageView {
+  position:absolute;
+  top:50;
+  left:0;
+}
+
+#Snowflake {
+  font-size: 24px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Koch Snowflake</title>
+  <link href="https://fonts.googleapis.com/css?family=Amita" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  <head>
+  <title>Koch Snowflake Fractal</title>
+</head>
+
+<body>
+<div id="main"><h1>Снежинка на Кох</h1>
+<div id="sidepanel">
+
+  <form id="Snowflake">
+  Цвят:<br>
+  <input type="text" id="scolor" name="scolor"
+         value="#000000"><br><br>
+
+  Брой итерации:<br>
+  <input type="number" id="iter" name="iter" value="4" min="0" max="7"><br><br>
+
+ Размер:<br>
+  <input type="number" id="size" name="size" value="7" min="7" max="12"><br><br>
+
+<button type="button" onclick="init(); return false;">Генерирай Снежинка на Кох</button>
+
+<button type="button" onclick="ResetFlake(); return false;">Нулирай</value>
+
+</form>
+  </div>
+
+
+    <div id="container">
+	  <canvas id="imageView" ></canvas>
+    </div> </div>
+
+   </body>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
